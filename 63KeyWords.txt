@@ -1,0 +1,67 @@
+Write one line for each kewords used in C++ language written below:
+
+asm - Used to insert assembly language code into C++ programs.
+auto - Used to automatically deduce the data type of a variable during declaration.
+bool - Represents boolean values, either true or false.
+break - Used to exit from a loop or switch statement.
+case - Used in switch statements to define individual cases.
+catch - Used to catch and handle exceptions in exception handling.
+char - Represents single characters or small integer values.
+class - Used to define a user-defined data type along with its properties and methods.
+const - Specifies that a variable's value cannot be modified after initialization.
+const_cast - Used for type-casting away the const-ness of a variable.
+continue - Used to skip the rest of the loop iteration and start the next iteration.
+default - Defines the default case in a switch statement.
+delete - Used to free dynamically allocated memory.
+do - Used to create a do-while loop.
+double - Represents double-precision floating-point numbers.
+dynamic_cast - Used for safe casting of polymorphic types.
+else - Used to define the alternative branch in an if statement.
+enum - Used to define an enumeration, a user-defined type consisting of named integer constants.
+explicit - Specifies that a constructor should not be implicitly used for type conversions.
+export - Not used in modern C++. Historically used for specifying exported templates.
+extern - Declares a variable or function that is defined in another translation unit.
+false - Represents the boolean value "false".
+float - Represents single-precision floating-point numbers.
+for - Used to create a loop that repeats a specified number of times.
+friend - Grants a function or class access to private members of another class.
+goto - Used to transfer control to a labeled statement.
+if - Used for conditional execution of code.
+inline - Suggests the compiler to inline a function for optimization.
+int - Represents integer values.
+long - Represents long integer values.
+mutable - Specifies that a member variable can be modified even in a const member function.
+namespace - Defines a scope to organize code and avoid naming conflicts.
+new - Allocates memory for a new object or array.
+operator - Used to define custom operators for user-defined types.
+private - Specifies that class members are only accessible within the class.
+protected - Specifies that class members are accessible within the class and its derived classes.
+public - Specifies that class members are accessible from any code.
+register - Suggests that a variable be stored in a processor register for faster access.
+reinterpret_cast - Used for low-level type casting with no specific type checking.
+return - Used to exit a function and return a value to the caller.
+short - Represents short integer values.
+signed - Specifies signed integer types.
+sizeof - Returns the size, in bytes, of a data type or object.
+static - Specifies that a variable or function is shared among all instances of a class.
+static_cast - Used for type casting between compatible types.
+struct - Defines a user-defined data type, similar to a class but with default public access.
+switch - Used for multi-way decision-making based on the value of an expression.
+template - Used to define generic functions or classes.
+this - Refers to the current instance of a class.
+throw - Used to raise an exception in exception handling.
+true - Represents the boolean value "true".
+try - Used to start a block of code where exceptions are handled.
+typedef - Used to create an alias for a data type.
+typeid - Returns information about the type of an expression.
+typename - Specifies that a dependent name in a template is a type.
+union - Defines a user-defined data type that can hold members of different types but only one at
+a time.
+unsigned - Specifies unsigned integer types.
+using - Introduces a namespace or a specific member from a namespace.
+virtual - Declares a member function to be polymorphic, allowing dynamic binding.
+void - Represents the absence of a type or the return type of a function that does not return a
+value.
+volatile - Specifies that a variable can be modified by external influences.
+wchar_t - Represents wide characters used in Unicode strings.
+while - Used to create a loop that continues as long as a specified condition is true.
