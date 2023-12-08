@@ -11,7 +11,7 @@ int hcf(int array[], int n)
         }
     }
     
-    int HCF = 2;
+    int HCF = min;
     int count = 0;
     while (1)
     {
@@ -24,7 +24,7 @@ int hcf(int array[], int n)
             else
             {
                 count = 0;
-                HCF = HCF + 1;
+                HCF = HCF - 1;
             }
         }
         if (count == n)
@@ -41,7 +41,7 @@ int hcf(int array[], int n)
 
 int main()
 {
-    int array[] = {51,17,34};
-    cout << hcf(array, 3);
+    int array[] = {24,17};
+    cout << hcf(array, 2);
     return 0;
 }

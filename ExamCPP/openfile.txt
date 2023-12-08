@@ -1,0 +1,48 @@
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+
+int main() {
+    std::string filename;
+    std::cout << "Enter the name of the text file: ";
+    std::getline(std::cin, filename);
+
+    std::ifstream file(filename);
+
+    // Check if the file is open
+    if (!file.is_open()) {
+        std::cerr << "Error opening file " << filename << std::endl;
+        return 1;
+    }
+
+    std::string line;
+    int charCount = 0;
+    int wordCount = 0;
+    int lineCount = 0;
+
+    while (std::getline(file, line)) {
+        // Count characters
+        charCount += line.length();
+
+        // Count words
+        std::istringstream iss(line);
+        std::string word;
+        while (iss >> word) {
+            wordCount++;
+        }
+
+        // Count lines
+        lineCount++;
+    }
+
+    // Display the results
+    std::cout << "Number of characters: " << charCount << std::endl;
+    std::cout << "Number of words: " << wordCount << std::endl;
+    std::cout << "Number of lines: " << lineCount << std::endl;
+
+    // Close the file
+    file.close();
+
+    return 0;
+}

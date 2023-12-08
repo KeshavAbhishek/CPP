@@ -7,12 +7,16 @@ int main(){
     getline(cin, data);
 
     int i = 0;
-    while(data[i]!='\0'){
-        if(data[i]==' '){
-            throw runtime_error("Space character found.");
+    try{
+
+        while(data[i]!='\0'){
+            if(data[i]==' '){
+                throw runtime_error("Space character found.");
+            }
+            i++;
         }
-        i++;
+    }catch(exception &e){
+        cout << e.what();
     }
-    cout << "No space found.";
     return 0;
 }

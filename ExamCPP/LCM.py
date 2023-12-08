@@ -15,7 +15,7 @@ def LCM(a,n):
 
 def HCF(a,n):
     count = 0
-    hcf = 2
+    hcf = min(a)
     i = 0
     while(hcf<=min(a)):
         if(count==n):
@@ -25,13 +25,13 @@ def HCF(a,n):
         else:
             count = 0
             i = -1
-            hcf += 1
+            hcf -= 1
         i+=1
     else:
         hcf = 1
         return hcf
-a = [12, 4, 6, 8]
-b = [12, 4, 6, 7]
+a = [24,4]
+b = [24,4]
 print(f"LCM of {a} = ", LCM(a, len(a)))
 print()
 print(f"HCF of {b} = ", HCF(b, len(b)))
